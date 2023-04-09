@@ -1,0 +1,38 @@
+.page-header {
+  background-color: #3f4757;
+  position: fixed;
+  z-index: 1;
+  color: #fff;
+  padding: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.page-header img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: #555;
+  border-radius: 100%;
+}
+
+.links {
+  color: white;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgb(1, 108, 73);
+  text-decoration: none;
+  margin-right: 5px;
+}

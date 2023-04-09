@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+}
+.episode-content {
+  margin-top: 5.2rem;
+  position: fixed;
+  width: 100%;
+}
+
+.table-container {
+  max-height: 600px;
+  overflow-y: scroll;
+  position: relative;
+  overflow-x: auto;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  /* margin: 3rem; */
+}
+
+.table td,
+.table th {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #e0e1e218;
+}
+
+.table tr:hover {
+  background-color: #f9d6d6;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #898d8b;
+  color: white;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.table-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+/* .character-cell {
+  display: block;
+  width: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+
+/* .characters-cell {
+  position: absolute;
+} */
+
+.characters-popup {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  z-index: 1;
+  margin-right: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  max-width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  overflow-y: auto;
+  /* margin-top: 8rem; */
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.popup-header p {
+  margin: 0;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: red;
+  background: none;
+  align-self: flex-start;
+  margin-left: 0.3rem;
+}
+
+.characters-list {
+  margin-top: 8px;
+  padding: 8px;
+}
+
+
+.search-and-table{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+
+.search-and-table .search-container{
+  display:flex;
+  flex-direction: row;
+  margin:1rem;
+ 
+}
+
+.search-and-table label{
+  display: none;
+}
+
+.search-and-table p{
+  margin-top:3rem;
+ text-align: center;
+ font-size: 15px;
+ 
+}
