@@ -43,17 +43,3 @@ const Card = ({ character }) => {
 };
 
 export default Card;
-
-// function CharacterCard({ character }) {
-//   const history = useHistory();
-
-//   const handleCardClick = () => {
-//     history.push(`/character/${character.id}`);
-//   };
-
-//   return (
-//     <div onClick={handleCardClick}>
-//       <Card character={character} />
-//     </div>
-//   );
-// }

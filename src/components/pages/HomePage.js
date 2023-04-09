@@ -7,7 +7,6 @@ import Sort from "../molecules/Sort";
 import { Link } from "react-router-dom";
 import { Context } from "../context/Context";
 
-
 function HomePage() {
   const { debounce, handleCardClick } = useContext(Context);
   const [characters, setCharacters] = useState([]);

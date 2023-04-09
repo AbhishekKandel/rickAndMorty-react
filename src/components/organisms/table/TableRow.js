@@ -56,5 +56,4 @@ const TableRow = ({ results }) => {
 
 export default TableRow;
 
-
 //how to make it configurable, discuss with yogesh
